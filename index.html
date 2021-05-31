@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ToDo List</title>
+	<link rel="stylesheet" href="css/todo.css">
+</head>
+<body>
+
+	<section>
+		<div class="to-do__form">
+				<input type="text" id="todo">
+				<button type="button" id="add-todo">Add TODO</button>
+		</div>
+		<div class="todos">
+			<div class="todos__in-progress">
+				<h2>Задачи в процессе</h2>
+				<div id="todos__in-progress-container">
+					<label class="todos__in-progress-item">
+						<input type="checkbox">
+						<span>Go to phe park</span>
+					</label>
+					<label class="todos__in-progress-item">
+						<input type="checkbox">
+						<span>Go to phe park wr4werwer</span>
+					</label>
+				</div>
+			</div>
+			<div class="todos__success">
+				<h2>Выполненные задачи</h2>
+				<div id="todos__success-container">
+					<div class="todos__success-item">
+						<span>Go to phe park</span>
+						<button type="button">Delete</button>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</section>
+	
+	<script src="js/todolist.js"></script>
+</body>
+</html>

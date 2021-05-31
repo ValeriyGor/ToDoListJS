@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.todos{
+	display: flex;
+	margin-top: 25px;
+	padding: 0 15px;
+}
+
+.todos__in-progress, .todos__success{
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.todos__in-progress-item{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.to-do__form{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 20px;
+}
+
+.to-do__form input{
+	margin-right: 15px;
+}
+
